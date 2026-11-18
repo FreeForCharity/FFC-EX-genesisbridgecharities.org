@@ -239,63 +239,40 @@ export type SiteConfig = {
 }
 
 export const siteConfig: SiteConfig = {
-  name: 'Free For Charity',
-  tagline: 'Reduce Costs, Increase Impact',
+  name: 'Genesis Bridge Charities',
+  tagline: 'Nonprofit Organization',
   mission:
-    'Free For Charity connects students, professionals, and businesses with nonprofits to reduce costs and increase revenues.',
+    'We believe everyone deserves a safe place to heal, rebuild, and move forward with dignity and hope. Our mission is to create supportive housing and compassionate services for people in recovery, veterans, college students, survivors of domestic violence, and others facing hardship, wherever there is a need and an opportunity to serve. We are committed to growing in response to emerging needs, partnerships, and resources, reaching beyond our immediate community to make a meaningful difference.',
   // Empty = a charity's Donate / Volunteer sections email contactEmail instead.
   donationUrl: '',
   volunteerUrl: '',
   description:
-    'Free For Charity connects students, professionals, and businesses with nonprofits to reduce costs and increase revenues—putting more resources back into their missions.',
+    'We believe everyone deserves a safe place to heal, rebuild, and move forward with dignity and hope. Our mission is to create supportive housing and compassionate services for people in recovery, veterans, college students, survivors of domestic violence, and others facing hardship, wherever there is a need and an opportunity to serve. We are committed to growing in response to emerging needs, partnerships, and resources, reaching beyond our immediate community to make a meaningful difference.',
   shortDescription:
-    'Connecting students, professionals, and businesses with nonprofits to reduce costs and increase revenues.',
+    'We believe everyone deserves a safe place to heal, rebuild, and move forward with dignity and hope. Our mission is to create supportive housing and compassionate services for people in recovery, veterans, college students, survivors of domestic violence, and others facing hardship, wherever there is a need and an opportunity to serve. We are committed to growing in response to emerging needs, partnerships, and resources, reaching beyond our immediate community to make a meaningful difference.',
   // Bare origin only (drift-check enforced). The template deploys to the
   // GitHub Pages default URL; the /FFC-IN-FFC_Single_Page_Template subpath
   // comes from NEXT_PUBLIC_BASE_PATH, which siteUrl() folds in at build time.
   // A fork with a custom domain sets its own origin here (and no basePath).
   url: 'https://freeforcharity.github.io',
-  twitterHandle: '@freeforcharity',
-  contactEmail: 'clarkemoyer@freeforcharity.org',
-  keywords: [
-    'nonprofit',
-    'charity',
-    'volunteer',
-    'donate',
-    'free hosting',
-    'domains',
-    'Microsoft 365',
-  ],
+  twitterHandle: '',
+  contactEmail: '',
+  keywords: ['nonprofit', 'charity', 'donate', 'volunteer', 'Genesis Bridge Charities'],
   themeColor: '#ffffff',
   vulnerabilityDisclosurePath: '/vulnerability-disclosure-policy',
-  social: [
-    { label: 'Facebook', href: 'https://www.facebook.com/freeforcharity' },
-    { label: 'X (Twitter)', href: 'https://x.com/freeforcharity1' },
-    { label: 'LinkedIn', href: 'https://www.linkedin.com/company/freeforcharity/' },
-    { label: 'GitHub', href: 'https://github.com/FreeForCharity/FFC-IN-FFC_Single_Page_Template' },
-  ],
-  ein: '46-2471893',
-  foundingDate: '2014',
-  nonprofitStatus: 'https://schema.org/Nonprofit501c3',
-  phone: { display: '(520) 222-8104', tel: '5202228104' },
+  social: [],
+  ein: '42-3285677',
+  phone: { display: '', tel: '' },
   addresses: [
     {
       label: 'Main Address',
-      lines: ['4030 Wake Forrest Road', 'Suite 349', 'Raleigh, NC 27609'],
-      mapUrl:
-        'https://www.google.com/maps/search/?api=1&query=4030+Wake+Forrest+Road+Suite+349+Raleigh+NC+27609',
-    },
-    {
-      label: 'PA Office Address',
-      lines: ['301 Science Park Road, Suite 119', 'State College, PA 16803'],
-      mapUrl:
-        'https://www.google.com/maps/place/Free+For+Charity/@40.7768455,-77.8963305,17z/data=!3m1!4b1!4m6!3m5!1s0x89cea944b44a2e01:0x6fc2d6bf09e00a0f!8m2!3d40.7768415!4d-77.8937556!16s%2Fg%2F11vzvbl2d7?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D',
+      lines: ['Dallas-Fort Worth, TX'],
+      mapUrl: 'https://www.google.com/maps/search/?api=1&query=Dallas-Fort%20Worth%2C%20TX',
     },
   ],
   guidestar: {
-    profileUrl: 'https://www.guidestar.org/profile/46-2471893',
-    directProfileUrl:
-      'https://www.guidestar.org/profile/shared/bbbe173a-87b9-4af9-a8a2-cae255a95742',
+    profileUrl: '',
+    directProfileUrl: '',
   },
   supportedBy: {
     name: 'Free For Charity',
@@ -305,12 +282,7 @@ export const siteConfig: SiteConfig = {
     legalContactEmail: 'clarkemoyer@freeforcharity.org',
     cookieContactEmail: 'clarkemoyer@freeforcharity.org',
   },
-  parentOrg: {
-    name: 'Free For Charity',
-    url: 'https://freeforcharity.org',
-    hubUrl: 'https://freeforcharity.org/hub/',
-  },
-  taxStatusLabel: 'a US 501c3 Non Profit',
+  taxStatusLabel: '',
   sections: {
     showEndowment: true,
     showPrograms: true,
@@ -323,6 +295,10 @@ export const siteConfig: SiteConfig = {
     eventsFacebookPageUrl: 'https://www.facebook.com/freeforcharity',
     microsoftFormUrl: 'https://forms.office.com/r/vePxGq6JqG',
   },
+
+  // Footer-standard fields still awaiting the charity; each renders a visible
+  // 'awaiting information' placeholder until it is filled in.
+  pending: ['email', 'donationUrl', 'volunteerUrl', 'phone', 'guidestar', 'social', 'team'],
 }
 
 /**

@@ -1,0 +1,27 @@
+{
+  "domain": "genesisbridgecharities.org",
+  "charityName": "Genesis Bridge Charities",
+  "websiteSituation": "New charity domain name and new charity website",
+  "currentWebsiteUrl": "",
+  "domainRegistrar": "No domain yet",
+  "requesterGitHubUsername": "clarkemoyer",
+  "technicalPocGitHubUsername": "yojoe26",
+  "cloudflareZoneControlled": false,
+  "footer": {
+    "email": "",
+    "phone": "",
+    "address": "Dallas-Fort Worth, TX",
+    "ein": "42-3285677",
+    "irsStatus": "Not yet / pending (pre-501(c)(3))",
+    "guideStarProfileUrl": "",
+    "guideStarDirectProfileUrl": "",
+    "socialLinks": [],
+    "mission": "We believe everyone deserves a safe place to heal, rebuild, and move forward with dignity and hope. Our mission is to create supportive housing and compassionate services for people in recovery, veterans, college students, survivors of domestic violence, and others facing hardship, wherever there is a need and an opportunity to serve. We are committed to growing in response to emerging needs, partnerships, and resources, reaching beyond our immediate community to make a meaningful difference.",
+    "donationUrl": "",
+    "volunteerUrl": ""
+  },
+  "leadership": [],
+  "generatedUtc": "2026-11-18T05:34:42.9082087Z",
+  "pendingFields": ["email", "donationUrl", "volunteerUrl", "phone", "guidestar", "social", "team"],
+  "pendingRendered": true
+}
